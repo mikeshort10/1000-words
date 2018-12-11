@@ -8,7 +8,7 @@
 		</ul>
 		</p>
 		<p>The endpoint for the JSON is:</p>
-			<p><a href="localhost:3000/api"><code>localhost:3000/api</code></a></p>. The endpoint will direct you to the list of the top 1000 words in the English language.</p> 
+			<p><code>localhost:3000/api/</code></p>. The endpoint will direct you to the list of the top 1000 words in the English language.</p> 
 			<p>The data structure for this API is a trie, where each letter is a node containing all possible letters that could come after it to create one of the top 1000 words. You do not need to understand this trie structure to use the API. </p>
 			<p>Each node may contain the key 'end'. This designates the end of the word, and the value of 'end' designates that words ranking in the overall list. Therefore, that is listed as <p><code> { t: { h: { a: { t: { end: 10 } } } } } </code></p> as it is the 10th most commonly used word in the English dictionary. This is of course a simple example, as each letter in that can contain more than one subsequent letter. For example, the "h" alse includes a key "e" with a value { 'end' : 1 }, to designate "the" as the most common English word.</p>
 			<p>To run a query of the list, use the endpoint <code>localhost:3000/api/search</code></p>
