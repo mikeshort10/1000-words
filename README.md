@@ -8,8 +8,9 @@
 		</ul>
 		</p>
 
-		<p>
-			The endpoint for the JSON is: <p><a href="localhost:3000/api"><code>localhost:3000/api</code></a></p>. The endpoint will direct you to the list of the top 1000 words in the English language.</p> 
+		<p>The endpoint for the JSON is:</p>
+			
+			<p><a href="localhost:3000/api"><code>localhost:3000/api</code></a></p>. The endpoint will direct you to the list of the top 1000 words in the English language.</p> 
 
 
 			<p>The data structure for this API is a trie, where each letter is a node containing all possible letters that could come after it to create one of the top 1000 words. You do not need to understand this trie structure to use the API. </p>
