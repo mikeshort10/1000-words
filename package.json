@@ -1,0 +1,23 @@
+{
+  "name": "1000_words",
+  "version": "1.0.0",
+  "description": "Top 1000 English Words API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "English",
+    "top",
+    "1000",
+    "words",
+    "API"
+  ],
+  "author": "Mike Short",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
